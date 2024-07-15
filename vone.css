@@ -1,0 +1,163 @@
+
+.icons{
+font-size: 28px;
+}
+.main{
+ background: url(event-images/homebg.jpg); 
+ width: 100%;
+ height: 100vh;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+}
+.main1{
+ position: relative;
+ top: 20%;
+ text-align: center;
+}
+.st .btn-2{
+ border: none;
+ background:linear-gradient(to bottom,#0197BE,#00B0A5);
+ outline: none;
+ padding: 15px  30px;
+
+}
+.st .btn-1{
+ border: none;
+ outline: none;
+ background-color: white;
+ padding: 15px  30px;
+
+}
+.st .btn-1:hover{
+ background:linear-gradient(to bottom,#0197BE,#00B0A5);
+}
+.main2:hover{
+background-color:white;
+}
+.st{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap:20px;
+}
+.event{
+ color: gray;
+ padding-left: 4%;
+ font-size: 15px;
+}
+.event h1{
+ color: black;
+}
+.event1{
+ margin-left: 100px;
+ margin-bottom: 60px;
+ color: black;
+ text-align: left;
+ font-weight:bold;
+ text-align:left;
+ font-size: 50px;
+ height: 20px;
+ }
+ .image-zoom-div{
+    width:350px;
+    height: 250px;
+    overflow: hidden;
+    background-color: red;
+ }
+ .event2{
+   width:100%;
+   height: 250px;
+   transition: all 2s ease;
+   cursor: pointer;
+}
+.event2:hover{
+/* transform: perspective(500px) translateZ(30px); */
+transform: scale(1.15);
+}
+
+ .br .br1{
+  border: 1px solid black; 
+   padding: 10px;
+ }
+ .ar{
+  margin-left: 100px;
+  margin-bottom: 20px;
+ color: black;
+ font-weight:bold;
+ font-size: 10px;
+ height: 10px; 
+ }
+ .footer{
+ margin:100px 0px 0px 0px;
+ background:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.632)), url('event-images/footer-cover.jpg');
+ width: 100%;
+ height: 90vh;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white; 
+ padding: 0px;
+ }
+ .rs{
+   cursor: pointer;
+   color: white;
+   text-align: center;
+ }
+.mr{
+ display: flex;
+ justify-content: center;
+ gap:30px;
+ align-items: center;
+ color:white;
+}
+.mr a{
+ color: white;
+ width: 10px;
+ height:20px;
+}
+body{
+ background-image: url('/event-images/middle-cover.jpg');
+}
+ 
+
+@media screen and (max-width:425px) {
+ .br{
+   display: block;
+    /* row-gap: 10px */
+   }
+ .br .br1{
+ border: 1px solid black;
+ padding: 10px;
+ }
+ .event{
+ margin-top: 100px;
+ margin-left: 10px;
+}
+.event1{
+ margin-left: 10px;
+ margin-bottom: 60px;
+
+ }
+ .ar{
+  margin-left: 10px;
+  margin-bottom: 50px;
+
+ }
+ .footer{
+ height: 80vh;
+ }
+ .main{
+ height: 50vh;
+}
+h1{
+ font-size:10px;
+ margin-bottom: 20px;
+ text-align: center;
+}
+}
+ 
