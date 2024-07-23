@@ -13,7 +13,7 @@ font-size: 28px;
 }
 .main1{
  position: relative;
- top: 20%;
+ top: 45%;
  text-align: center;
 }
 .st .btn-2{
@@ -21,6 +21,8 @@ font-size: 28px;
  background:linear-gradient(to bottom,#0197BE,#00B0A5);
  outline: none;
  padding: 15px  30px;
+ margin-top: 20px;
+ width: 150px;
 
 }
 .st .btn-1{
@@ -28,6 +30,8 @@ font-size: 28px;
  outline: none;
  background-color: white;
  padding: 15px  30px;
+margin-top: 20px;
+width: 150px;
 
 }
 .st .btn-1:hover{
