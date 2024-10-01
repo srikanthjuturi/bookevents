@@ -124,10 +124,32 @@ transform: scale(1.15);
  width: 10px;
  height:20px;
 }
-body{
- background-image: url('/event-images/middle-cover.jpg');
-}
+ .background-index{
+  background-image: url('./event-images/middle-cover.jpg');
+ }
  
+ .typing-animation {
+  font-size: 2.5em;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(40);
+  text-align: center;
+  margin: 50px auto;
+  display: inline-block;
+}
+
+/* Typing Effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
 
 @media screen and (max-width:425px) {
  .br{
